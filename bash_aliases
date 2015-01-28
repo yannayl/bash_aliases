@@ -1,4 +1,4 @@
-alias apt-get="sudo apt-fast"
+#!/bin/bash
 
 ## start application detached from console
 ## handy for starting gui applications from command line
