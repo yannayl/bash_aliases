@@ -22,8 +22,8 @@ function iv() {
     file=${1%%:*}
     rest=${1#*:}
     line=${rest%%:*}
-	
-	if ! [[ "${line}" =~ "[:digit:]+" ]]; then
+
+	if ! [[ "${line}" =~ ^[[:digit:]]+$ ]]; then
 		line=:
 	fi
 
